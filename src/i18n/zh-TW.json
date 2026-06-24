@@ -1,0 +1,121 @@
+{
+  "common": {
+    "appName": "DC AgentPay",
+    "tagline": "讓每個 AI Agent 成為獨立的經濟主體",
+    "getStarted": "立即開始",
+    "viewDashboard": "進入儀表板",
+    "language": "語言",
+    "demoMode": "演示模式",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "確認",
+    "create": "創建",
+    "delete": "刪除",
+    "edit": "編輯",
+    "status": "狀態",
+    "online": "在線",
+    "offline": "離線",
+    "success": "成功",
+    "failed": "失敗",
+    "pending": "處理中",
+    "balance": "餘額",
+    "amount": "金額",
+    "token": "代幣",
+    "address": "地址",
+    "actions": "操作",
+    "loading": "加載中…"
+  },
+  "nav": {
+    "dashboard": "儀表板",
+    "agents": "Agent 管理",
+    "payments": "支付監控",
+    "swap": "代幣兌換",
+    "strategy": "策略配置",
+    "gateway": "支付網關",
+    "health": "健康檢查"
+  },
+  "landing": {
+    "subtitle": "基於 HTX 生態的 AI Agent 智能支付管理平台。獨立錢包、自主支付、智能兌換。",
+    "feature1Title": "Agent 獨立錢包",
+    "feature1Desc": "每個 Agent 通過 HTX Account API 生成獨立錢包，資金隔離、權限分級。",
+    "feature2Title": "自主支付引擎",
+    "feature2Desc": "規則 + AI 決策驅動，Agent 自動完成 API 調用、訂閱、算力租賃等付費場景。",
+    "feature3Title": "智能代幣兌換",
+    "feature3Desc": "目標 Token 不足時，自動通過 HTX 兌換，毫秒級完成路由。",
+    "feature4Title": "統一管理儀表板",
+    "feature4Desc": "多 Agent 資產一覽、支付監控、即時告警。",
+    "ctaTitle": "為您的 AI Agent 賦予經濟能力",
+    "ctaDesc": "註冊賬戶，3 分鐘為您的第一個 Agent 配置錢包與支付策略。"
+  },
+  "dashboard": {
+    "title": "Agent 統一儀表板",
+    "totalAssets": "資產總覽 (USDT)",
+    "todayPayments": "今日支付總額",
+    "activeAgents": "活躍 Agent",
+    "successRate": "支付成功率",
+    "recentPayments": "近期支付",
+    "agentList": "Agent 清單",
+    "paymentTrend": "支付趨勢",
+    "assetDistribution": "資產分佈"
+  },
+  "agents": {
+    "title": "Agent 管理",
+    "create": "創建 Agent",
+    "name": "名稱",
+    "type": "類型",
+    "wallet": "錢包",
+    "dailyLimit": "每日限額",
+    "perTxLimit": "單筆限額",
+    "permissions": "權限",
+    "permRead": "讀取",
+    "permTrade": "交易",
+    "permWithdraw": "提幣",
+    "createSuccess": "Agent 創建成功",
+    "namePlaceholder": "如：數據分析 Agent",
+    "typePlaceholder": "如：data / shopping / content"
+  },
+  "payments": {
+    "title": "支付監控",
+    "newPayment": "發起支付",
+    "toAddress": "收款地址",
+    "memo": "備註",
+    "history": "支付歷史",
+    "noData": "暫無支付記錄"
+  },
+  "swap": {
+    "title": "智能代幣兌換",
+    "from": "支付",
+    "to": "獲得",
+    "estPrice": "預估價格",
+    "slippage": "最大滑點",
+    "execute": "執行兌換",
+    "quote": "獲取報價"
+  },
+  "strategy": {
+    "title": "支付策略配置",
+    "rules": "支付規則",
+    "whitelist": "白名單地址",
+    "blacklist": "黑名單地址",
+    "approvalThreshold": "人工審批閾值",
+    "aiAssist": "啟用 AI 風控建議",
+    "addRule": "添加規則",
+    "askAi": "讓 AI 推薦策略"
+  },
+  "gateway": {
+    "title": "AI 支付網關",
+    "subtitle": "為 Web3 服務商提供標準化 Agent 支付接入",
+    "createRequest": "生成支付請求",
+    "serviceId": "服務標識",
+    "callbackUrl": "回調地址",
+    "requestCreated": "支付請求已生成",
+    "docs": "API 文檔"
+  },
+  "health": {
+    "title": "功能健康檢查",
+    "subtitle": "一鍵驗證 DeepSeek、HTX、Agent、支付、兌換各模塊運作",
+    "runAll": "運行全部檢查",
+    "module": "模塊",
+    "result": "結果",
+    "detail": "詳情"
+  }
+}

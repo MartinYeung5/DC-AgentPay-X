@@ -1,0 +1,121 @@
+{
+  "common": {
+    "appName": "DC AgentPay",
+    "tagline": "让每个 AI Agent 成为独立的经济主体",
+    "getStarted": "立即开始",
+    "viewDashboard": "进入仪表板",
+    "language": "语言",
+    "demoMode": "演示模式",
+    "save": "保存",
+    "cancel": "取消",
+    "confirm": "确认",
+    "create": "创建",
+    "delete": "删除",
+    "edit": "编辑",
+    "status": "状态",
+    "online": "在线",
+    "offline": "离线",
+    "success": "成功",
+    "failed": "失败",
+    "pending": "处理中",
+    "balance": "余额",
+    "amount": "金额",
+    "token": "代币",
+    "address": "地址",
+    "actions": "操作",
+    "loading": "加载中…"
+  },
+  "nav": {
+    "dashboard": "仪表板",
+    "agents": "Agent 管理",
+    "payments": "支付监控",
+    "swap": "代币兑换",
+    "strategy": "策略配置",
+    "gateway": "支付网关",
+    "health": "健康检查"
+  },
+  "landing": {
+    "subtitle": "基于 HTX 生态的 AI Agent 智能支付管理平台。独立钱包、自主支付、智能兑换。",
+    "feature1Title": "Agent 独立钱包",
+    "feature1Desc": "每个 Agent 通过 HTX Account API 生成独立钱包，资金隔离、权限分级。",
+    "feature2Title": "自主支付引擎",
+    "feature2Desc": "规则 + AI 决策驱动，Agent 自动完成 API 调用、订阅、算力租赁等付费场景。",
+    "feature3Title": "智能代币兑换",
+    "feature3Desc": "目标 Token 不足时，自动通过 HTX 兑换，毫秒级完成路由。",
+    "feature4Title": "统一管理仪表板",
+    "feature4Desc": "多 Agent 资产一览、支付监控、即时告警。",
+    "ctaTitle": "为您的 AI Agent 赋予经济能力",
+    "ctaDesc": "注册账户，3 分钟为您的第一个 Agent 配置钱包与支付策略。"
+  },
+  "dashboard": {
+    "title": "Agent 统一仪表板",
+    "totalAssets": "资产总览 (USDT)",
+    "todayPayments": "今日支付总额",
+    "activeAgents": "活跃 Agent",
+    "successRate": "支付成功率",
+    "recentPayments": "近期支付",
+    "agentList": "Agent 清单",
+    "paymentTrend": "支付趋势",
+    "assetDistribution": "资产分布"
+  },
+  "agents": {
+    "title": "Agent 管理",
+    "create": "创建 Agent",
+    "name": "名称",
+    "type": "类型",
+    "wallet": "钱包",
+    "dailyLimit": "每日限额",
+    "perTxLimit": "单笔限额",
+    "permissions": "权限",
+    "permRead": "读取",
+    "permTrade": "交易",
+    "permWithdraw": "提币",
+    "createSuccess": "Agent 创建成功",
+    "namePlaceholder": "如：数据分析 Agent",
+    "typePlaceholder": "如：data / shopping / content"
+  },
+  "payments": {
+    "title": "支付监控",
+    "newPayment": "发起支付",
+    "toAddress": "收款地址",
+    "memo": "备注",
+    "history": "支付历史",
+    "noData": "暂无支付记录"
+  },
+  "swap": {
+    "title": "智能代币兑换",
+    "from": "支付",
+    "to": "获得",
+    "estPrice": "预估价格",
+    "slippage": "最大滑点",
+    "execute": "执行兑换",
+    "quote": "获取报价"
+  },
+  "strategy": {
+    "title": "支付策略配置",
+    "rules": "支付规则",
+    "whitelist": "白名单地址",
+    "blacklist": "黑名单地址",
+    "approvalThreshold": "人工审批阈值",
+    "aiAssist": "启用 AI 风控建议",
+    "addRule": "添加规则",
+    "askAi": "让 AI 推荐策略"
+  },
+  "gateway": {
+    "title": "AI 支付网关",
+    "subtitle": "为 Web3 服务商提供标准化 Agent 支付接入",
+    "createRequest": "生成支付请求",
+    "serviceId": "服务标识",
+    "callbackUrl": "回调地址",
+    "requestCreated": "支付请求已生成",
+    "docs": "API 文档"
+  },
+  "health": {
+    "title": "功能健康检查",
+    "subtitle": "一键验证 DeepSeek、HTX、Agent、支付、兑换各模块运作",
+    "runAll": "运行全部检查",
+    "module": "模块",
+    "result": "结果",
+    "detail": "详情"
+  }
+}

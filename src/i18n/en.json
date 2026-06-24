@@ -1,0 +1,121 @@
+{
+  "common": {
+    "appName": "DC AgentPay",
+    "tagline": "Let every AI Agent become an independent economic actor",
+    "getStarted": "Get Started",
+    "viewDashboard": "Open Dashboard",
+    "language": "Language",
+    "demoMode": "Demo Mode",
+    "save": "Save",
+    "cancel": "Cancel",
+    "confirm": "Confirm",
+    "create": "Create",
+    "delete": "Delete",
+    "edit": "Edit",
+    "status": "Status",
+    "online": "Online",
+    "offline": "Offline",
+    "success": "Success",
+    "failed": "Failed",
+    "pending": "Pending",
+    "balance": "Balance",
+    "amount": "Amount",
+    "token": "Token",
+    "address": "Address",
+    "actions": "Actions",
+    "loading": "Loading…"
+  },
+  "nav": {
+    "dashboard": "Dashboard",
+    "agents": "Agents",
+    "payments": "Payments",
+    "swap": "Swap",
+    "strategy": "Strategy",
+    "gateway": "Gateway",
+    "health": "Health"
+  },
+  "landing": {
+    "subtitle": "AI Agent payment platform on HTX. Independent wallets, autonomous payments, smart token swap.",
+    "feature1Title": "Agent Wallets",
+    "feature1Desc": "Each agent gets a dedicated HTX wallet with fine-grained permissions.",
+    "feature2Title": "Autonomous Payments",
+    "feature2Desc": "Rules + AI decisions drive automated API, subscription and compute payments.",
+    "feature3Title": "Smart Token Swap",
+    "feature3Desc": "Auto-route through HTX when the target token is missing — in milliseconds.",
+    "feature4Title": "Unified Dashboard",
+    "feature4Desc": "Multi-agent assets, payment monitoring, real-time alerts.",
+    "ctaTitle": "Empower your AI Agent with money",
+    "ctaDesc": "Sign up and provision your first Agent wallet & strategy in 3 minutes."
+  },
+  "dashboard": {
+    "title": "Unified Agent Dashboard",
+    "totalAssets": "Total Assets (USDT)",
+    "todayPayments": "Today's Payments",
+    "activeAgents": "Active Agents",
+    "successRate": "Payment Success Rate",
+    "recentPayments": "Recent Payments",
+    "agentList": "Agents",
+    "paymentTrend": "Payment Trend",
+    "assetDistribution": "Asset Distribution"
+  },
+  "agents": {
+    "title": "Agent Management",
+    "create": "Create Agent",
+    "name": "Name",
+    "type": "Type",
+    "wallet": "Wallet",
+    "dailyLimit": "Daily Limit",
+    "perTxLimit": "Per-Tx Limit",
+    "permissions": "Permissions",
+    "permRead": "Read",
+    "permTrade": "Trade",
+    "permWithdraw": "Withdraw",
+    "createSuccess": "Agent created",
+    "namePlaceholder": "e.g. Data Analyst Agent",
+    "typePlaceholder": "e.g. data / shopping / content"
+  },
+  "payments": {
+    "title": "Payment Monitoring",
+    "newPayment": "New Payment",
+    "toAddress": "Recipient",
+    "memo": "Memo",
+    "history": "Payment History",
+    "noData": "No payments yet"
+  },
+  "swap": {
+    "title": "Smart Token Swap",
+    "from": "Pay",
+    "to": "Receive",
+    "estPrice": "Est. Price",
+    "slippage": "Max Slippage",
+    "execute": "Execute Swap",
+    "quote": "Get Quote"
+  },
+  "strategy": {
+    "title": "Payment Strategy",
+    "rules": "Rules",
+    "whitelist": "Whitelist",
+    "blacklist": "Blacklist",
+    "approvalThreshold": "Manual Approval Threshold",
+    "aiAssist": "Enable AI Risk Suggestions",
+    "addRule": "Add Rule",
+    "askAi": "Ask AI for Strategy"
+  },
+  "gateway": {
+    "title": "AI Payment Gateway",
+    "subtitle": "Standardized Agent payment integration for Web3 services",
+    "createRequest": "Create Payment Request",
+    "serviceId": "Service ID",
+    "callbackUrl": "Callback URL",
+    "requestCreated": "Payment request created",
+    "docs": "API Docs"
+  },
+  "health": {
+    "title": "Health Check",
+    "subtitle": "One-click verification of DeepSeek, HTX, Agent, Payment, Swap modules",
+    "runAll": "Run All Checks",
+    "module": "Module",
+    "result": "Result",
+    "detail": "Detail"
+  }
+}
