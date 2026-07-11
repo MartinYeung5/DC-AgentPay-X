@@ -165,3 +165,6 @@ src/
 - ✅ HTX 簽名生成
 - ✅ DeepSeek AI 回應
 - ✅ JWT 驗證
+
+## DEMO
+* https://youtu.be/YETznovPlTc
