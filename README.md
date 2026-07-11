@@ -2,7 +2,7 @@
 
 > Let every AI Agent become an independent economic actor.
 
-## 🚀 核心升級 (v2.0)
+## 🚀 核心升級
 
 | 功能 | 說明 |
 |------|------|
