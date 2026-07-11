@@ -1,11 +1,12 @@
 {
   "common": {
-    "appName": "DC AgentPay",
+    "appName": "DC AgentPay X",
     "tagline": "Let every AI Agent become an independent economic actor",
     "getStarted": "Get Started",
     "viewDashboard": "Open Dashboard",
     "language": "Language",
     "demoMode": "Demo Mode",
+    "productionMode": "Production Mode",
     "save": "Save",
     "cancel": "Cancel",
     "confirm": "Confirm",
@@ -23,7 +24,26 @@
     "token": "Token",
     "address": "Address",
     "actions": "Actions",
-    "loading": "Loading…"
+    "loading": "Loading…",
+    "login": "Login",
+    "logout": "Logout",
+    "wallet": "Wallet",
+    "connect": "Connect",
+    "connected": "Connected"
+  },
+  "auth": {
+    "title": "Login to DC AgentPay X",
+    "subtitle": "Secure login with MetaMask wallet or Google account",
+    "metamask": "MetaMask Wallet Login",
+    "google": "Google Login",
+    "or": "—— or ——",
+    "connecting": "Connecting MetaMask…",
+    "signatureRequired": "Please confirm signature in your wallet",
+    "wrongNetwork": "Please switch to HTX Testnet",
+    "invalidSignature": "Signature verification failed",
+    "accountCreated": "Account created successfully",
+    "accountLinked": "Wallet linked",
+    "noWallet": "MetaMask not detected. Please install it first."
   },
   "nav": {
     "dashboard": "Dashboard",
@@ -32,7 +52,8 @@
     "swap": "Swap",
     "strategy": "Strategy",
     "gateway": "Gateway",
-    "health": "Health"
+    "health": "Health",
+    "profile": "Profile"
   },
   "landing": {
     "subtitle": "AI Agent payment platform on HTX. Independent wallets, autonomous payments, smart token swap.",
@@ -56,11 +77,14 @@
     "recentPayments": "Recent Payments",
     "agentList": "Agents",
     "paymentTrend": "Payment Trend",
-    "assetDistribution": "Asset Distribution"
+    "assetDistribution": "Asset Distribution",
+    "welcome": "Welcome back",
+    "realTime": "Real-time Data"
   },
   "agents": {
     "title": "Agent Management",
     "create": "Create Agent",
+    "connect": "Connect Real Agent",
     "name": "Name",
     "type": "Type",
     "wallet": "Wallet",
@@ -72,7 +96,26 @@
     "permWithdraw": "Withdraw",
     "createSuccess": "Agent created",
     "namePlaceholder": "e.g. Data Analyst Agent",
-    "typePlaceholder": "e.g. data / shopping / content"
+    "typePlaceholder": "e.g. data / shopping / content",
+    "apiKey": "Agent API Key",
+    "apiKeyPlaceholder": "Enter your Agent service API Key",
+    "apiEndpoint": "API Endpoint",
+    "endpointPlaceholder": "e.g. https://your-agent.api/v1",
+    "authMethod": "Auth Method",
+    "authBearer": "Bearer Token",
+    "authBasic": "Basic Auth",
+    "authApiKey": "API Key Header",
+    "currency": "Currency",
+    "autoSwapLimit": "Auto-Swap Limit",
+    "autoSwapLimitHint": "Max amount per auto-swap (USDT)",
+    "realAgent": "Real Agent",
+    "simulated": "Simulated",
+    "agentStatus": "Agent Status",
+    "lastHeartbeat": "Last Heartbeat",
+    "testConnection": "Test Connection",
+    "connectionOk": "✅ Connected",
+    "connectionFailed": "❌ Connection Failed",
+    "instructions": "Fill in the details below to connect your Agent to DC AgentPay X. Once connected, your Agent can make autonomous payments based on your configured permissions and limits."
   },
   "payments": {
     "title": "Payment Monitoring",
@@ -80,7 +123,10 @@
     "toAddress": "Recipient",
     "memo": "Memo",
     "history": "Payment History",
-    "noData": "No payments yet"
+    "noData": "No payments yet",
+    "fromAgent": "Source Agent",
+    "realPayment": "Real Payment",
+    "simulatedPayment": "Simulated Payment"
   },
   "swap": {
     "title": "Smart Token Swap",
@@ -89,7 +135,14 @@
     "estPrice": "Est. Price",
     "slippage": "Max Slippage",
     "execute": "Execute Swap",
-    "quote": "Get Quote"
+    "quote": "Get Quote",
+    "liveRate": "Live Rate",
+    "liveRateFrom": "HTX Chain",
+    "refreshing": "Refreshing…",
+    "rateExpired": "Rate expired, refresh",
+    "insufficientBalance": "Insufficient balance",
+    "swapSuccess": "Swap successful",
+    "swapFailed": "Swap failed"
   },
   "strategy": {
     "title": "Payment Strategy",
@@ -112,10 +165,21 @@
   },
   "health": {
     "title": "Health Check",
-    "subtitle": "One-click verification of DeepSeek, HTX, Agent, Payment, Swap modules",
+    "subtitle": "One-click verification of MetaMask, Google, MongoDB, HTX, Agent, Payment, Swap modules",
     "runAll": "Run All Checks",
     "module": "Module",
     "result": "Result",
     "detail": "Detail"
+  },
+  "profile": {
+    "title": "Profile",
+    "walletAddress": "Wallet Address",
+    "email": "Email",
+    "loginMethod": "Login Method",
+    "linkedAgents": "Linked Agents",
+    "settings": "Settings",
+    "theme": "Theme",
+    "language": "Language",
+    "notifications": "Notifications"
   }
 }

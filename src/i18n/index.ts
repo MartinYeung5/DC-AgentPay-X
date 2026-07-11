@@ -7,9 +7,7 @@ export type Locale = typeof locales[number];
 export const defaultLocale: Locale = 'zh-TW';
 
 export const dictionaries: Record<Locale, any> = {
-  'zh-TW': zhTW,
-  'zh-CN': zhCN,
-  'en': en,
+  'zh-TW': zhTW, 'zh-CN': zhCN, 'en': en,
 };
 
 export function getDict(locale: string) {

@@ -1,11 +1,12 @@
 {
   "common": {
-    "appName": "DC AgentPay",
+    "appName": "DC AgentPay X",
     "tagline": "让每个 AI Agent 成为独立的经济主体",
     "getStarted": "立即开始",
     "viewDashboard": "进入仪表板",
     "language": "语言",
     "demoMode": "演示模式",
+    "productionMode": "生产模式",
     "save": "保存",
     "cancel": "取消",
     "confirm": "确认",
@@ -23,7 +24,26 @@
     "token": "代币",
     "address": "地址",
     "actions": "操作",
-    "loading": "加载中…"
+    "loading": "加载中…",
+    "login": "登录",
+    "logout": "登出",
+    "wallet": "钱包",
+    "connect": "连接",
+    "connected": "已连接"
+  },
+  "auth": {
+    "title": "登录 DC AgentPay X",
+    "subtitle": "使用 MetaMask 钱包或 Google 账号安全登录",
+    "metamask": "MetaMask 钱包登录",
+    "google": "Google 登录",
+    "or": "—— 或 ——",
+    "connecting": "正在连接 MetaMask…",
+    "signatureRequired": "请在钱包中确认签名",
+    "wrongNetwork": "请切换至 HTX 测试网",
+    "invalidSignature": "签名验证失败",
+    "accountCreated": "账户创建成功",
+    "accountLinked": "钱包已绑定",
+    "noWallet": "未检测到 MetaMask，请安装后重试"
   },
   "nav": {
     "dashboard": "仪表板",
@@ -32,7 +52,8 @@
     "swap": "代币兑换",
     "strategy": "策略配置",
     "gateway": "支付网关",
-    "health": "健康检查"
+    "health": "健康检查",
+    "profile": "个人中心"
   },
   "landing": {
     "subtitle": "基于 HTX 生态的 AI Agent 智能支付管理平台。独立钱包、自主支付、智能兑换。",
@@ -56,11 +77,14 @@
     "recentPayments": "近期支付",
     "agentList": "Agent 清单",
     "paymentTrend": "支付趋势",
-    "assetDistribution": "资产分布"
+    "assetDistribution": "资产分布",
+    "welcome": "欢迎回来",
+    "realTime": "实时数据"
   },
   "agents": {
     "title": "Agent 管理",
     "create": "创建 Agent",
+    "connect": "接入真实 Agent",
     "name": "名称",
     "type": "类型",
     "wallet": "钱包",
@@ -72,7 +96,26 @@
     "permWithdraw": "提币",
     "createSuccess": "Agent 创建成功",
     "namePlaceholder": "如：数据分析 Agent",
-    "typePlaceholder": "如：data / shopping / content"
+    "typePlaceholder": "如：data / shopping / content",
+    "apiKey": "Agent API Key",
+    "apiKeyPlaceholder": "输入您的 Agent 服务 API Key",
+    "apiEndpoint": "API Endpoint",
+    "endpointPlaceholder": "如：https://your-agent.api/v1",
+    "authMethod": "认证方式",
+    "authBearer": "Bearer Token",
+    "authBasic": "Basic Auth",
+    "authApiKey": "API Key Header",
+    "currency": "使用货币",
+    "autoSwapLimit": "自动兑换上限",
+    "autoSwapLimitHint": "每次自动兑换的最大金额 (USDT)",
+    "realAgent": "真实 Agent",
+    "simulated": "模拟 Agent",
+    "agentStatus": "Agent 状态",
+    "lastHeartbeat": "最后心跳",
+    "testConnection": "测试连接",
+    "connectionOk": "✅ 连接成功",
+    "connectionFailed": "❌ 连接失败",
+    "instructions": "填写以下信息即可将您的 Agent 接入 DC AgentPay X 平台。接入后，Agent 可以根据您设定的权限和限额自主进行支付。"
   },
   "payments": {
     "title": "支付监控",
@@ -80,7 +123,10 @@
     "toAddress": "收款地址",
     "memo": "备注",
     "history": "支付历史",
-    "noData": "暂无支付记录"
+    "noData": "暂无支付记录",
+    "fromAgent": "来源 Agent",
+    "realPayment": "真实支付",
+    "simulatedPayment": "模拟支付"
   },
   "swap": {
     "title": "智能代币兑换",
@@ -89,7 +135,14 @@
     "estPrice": "预估价格",
     "slippage": "最大滑点",
     "execute": "执行兑换",
-    "quote": "获取报价"
+    "quote": "获取报价",
+    "liveRate": "即时汇率",
+    "liveRateFrom": "HTX Chain",
+    "refreshing": "刷新中…",
+    "rateExpired": "汇率已过期，请重新获取",
+    "insufficientBalance": "余额不足",
+    "swapSuccess": "兑换成功",
+    "swapFailed": "兑换失败"
   },
   "strategy": {
     "title": "支付策略配置",
@@ -112,10 +165,21 @@
   },
   "health": {
     "title": "功能健康检查",
-    "subtitle": "一键验证 DeepSeek、HTX、Agent、支付、兑换各模块运作",
+    "subtitle": "一键验证 MetaMask、Google、MongoDB、HTX、Agent、支付、兑换各模块运作",
     "runAll": "运行全部检查",
     "module": "模块",
     "result": "结果",
     "detail": "详情"
+  },
+  "profile": {
+    "title": "个人中心",
+    "walletAddress": "钱包地址",
+    "email": "邮箱",
+    "loginMethod": "登录方式",
+    "linkedAgents": "已绑定 Agent",
+    "settings": "设置",
+    "theme": "主题",
+    "language": "语言",
+    "notifications": "通知设置"
   }
 }
