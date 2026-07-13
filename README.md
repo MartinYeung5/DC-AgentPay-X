@@ -2,7 +2,7 @@
 
 > Let every AI Agent become an independent economic actor.
 
-## 🚀 核心升級
+## 核心升級
 
 | 功能 | 說明 |
 |------|------|
@@ -15,7 +15,7 @@
 | 🌐 **生產模式切換** | `DEMO_MODE=false` 時所有功能真實執行 |
 | ⚙️ **自動兌換上限** | 為每個 Agent 設定自動兌換最大金額，防止意外損失 |
 
-## 📋 快速開始
+## 快速開始
 
 ### 1. 安裝依賴
 ```bash
@@ -51,7 +51,7 @@ git push origin main
 # 在 Vercel Dashboard 配置相同環境變數
 ```
 
-## 🔑 登入方式
+## 登入方式
 
 ### MetaMask 錢包登入
 1. 點擊 "MetaMask 錢包登入"
@@ -63,7 +63,7 @@ git push origin main
 2. 選擇 Google 賬戶授權
 3. 自動創建/綁定賬戶
 
-## 🤖 Agent 接入流程
+## Agent 接入流程
 
 1. 進入 **Agent 管理** 頁面
 2. 點擊 **"接入真實 Agent"**
@@ -81,20 +81,20 @@ git push origin main
 
 接入後，Agent 可以根據您設定的權限和限額自主進行支付。
 
-## 💱 即時匯率
+## 即時匯率
 
 Swap 頁面會自動從 **HTX Chain** 獲取即時市場匯率：
 - 支持所有主流交易對
 - 匯率即時刷新（帶時間戳顯示）
 - 滑點保護（可自訂最大滑點）
 
-## 🔄 模式切換
+## 模式切換
 
 右上角可切換 **Demo Mode** ↔ **Production Mode**：
 - **Demo Mode** (`DEMO_MODE=true`)：模擬資料，安全測試
 - **Production Mode** (`DEMO_MODE=false`)：真實交易，連接 HTX 主網
 
-## 📁 目錄結構
+## 目錄結構
 
 ```
 src/
@@ -147,7 +147,7 @@ src/
     zh-TW.json / zh-CN.json / en.json
 ```
 
-## 🛡️ 安全說明
+## 安全說明
 
 - API Key 儲存在 MongoDB 中（生產環境應加密儲存）
 - JWT Session 7天有效，自動續期
