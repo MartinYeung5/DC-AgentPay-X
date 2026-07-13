@@ -169,6 +169,9 @@ src/
 ## DEMO
 * https://youtu.be/YETznovPlTc
 
+## 目前進度
+* 已完成測試版，部分功能仍在優化
+
 ## Screen Cap
 * 首頁
 ![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_1.png)
