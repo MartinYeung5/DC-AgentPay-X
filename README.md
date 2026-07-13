@@ -170,4 +170,4 @@ src/
 * https://youtu.be/YETznovPlTc
 
 ## Screen Cap
-![image](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_1.png)
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_1.png)
