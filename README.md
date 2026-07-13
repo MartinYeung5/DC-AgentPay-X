@@ -184,3 +184,15 @@ src/
 
 * Swap
 ![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_5.png)
+
+* Payment Strategy
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_6.png)
+
+* Gateway
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_7.png)
+
+* Profile
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_8.png)
+
+* Health
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_9.png)
