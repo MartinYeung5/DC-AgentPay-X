@@ -172,3 +172,15 @@ src/
 ## Screen Cap
 * 首頁
 ![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_1.png)
+
+* Dashboard
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_2.png)
+
+* Agents
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_3.png)
+
+* Payments
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_4.png)
+
+* Swap
+![home_page](https://github.com/MartinYeung5/DC-AgentPay-X/blob/main/image/20260713_5.png)
